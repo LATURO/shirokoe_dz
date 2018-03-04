@@ -42,7 +42,6 @@ int Array[5][5] =
 	}
 	cout<<endl<<"Max summ pairs:"<<endl;
 	for (int i = 0; i < buf.size(); i++){
-		//cout<<i<<" "<<n-1-buf[i]+1<<endl;
 		cout<<i+1<<") "<<n-buf[i]-1<<" "<<n-buf[i]<<endl;
 	}
 	cout<<endl;

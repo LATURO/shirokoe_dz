@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
-{
+int main(){
     FILE *fp;
 	fp = fopen("readfile1.txt", "r"); 
 	 int  n, i; 
@@ -22,5 +21,5 @@ int main()
 	  	}
 	  }
 	cout<<endl<<"result "<<result<<endl;
-	}
+}
 
